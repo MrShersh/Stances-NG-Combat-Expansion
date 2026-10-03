@@ -1,0 +1,90 @@
+key	ENGLISH	RUSSIAN
+$SNGECE_Title	Stances NG - Combat Expansion	Stances NG - Combat Expansion
+$SNGECE_NotLoaded	Stances NG - Combat Expansion.esp is not active. Enable it in the load order.	Stances NG - Combat Expansion.esp не активен. Включите его в порядке загрузки.
+$SNGECE_Header_Bonuses	Stance Bonuses	Бонусы стоек
+$SNGECE_Enabled	Enable stance bonuses	Включить бонусы стоек
+$SNGECE_Enabled_Tip	Buffs and debuffs for the Bear, Wolf and Hawk stances. Neutral stance has no modifiers.	Бонусы и штрафы для стоек Медведя, Волка и Ястреба. Нейтральная стойка без модификаторов.
+$SNGECE_MeleeOnly	Only with melee weapons	Только с оружием ближнего боя
+$SNGECE_MeleeOnly_Tip	Stance bonuses and penalties work only while a melee weapon, a shield or bare fists are in hand. With a bow, a crossbow, a staff or only spells they are off. Spells are never affected by stances.	Бонусы и штрафы стоек действуют, только пока в руках оружие ближнего боя, щит или кулаки. С луком, арбалетом, посохом или одними заклинаниями они выключены. На заклинания стойки не влияют никогда.
+$SNGECE_Stance_Bear	Bear	Медведь
+$SNGECE_Stance_Bear_Desc	Bear stance emphasizes aggression: more attack and break power than any other stance, at the cost of defence, maneuverability and stamina regeneration.	Стойка Медведя - агрессия: больше урона и пробивной силы, чем в любой другой стойке, ценой защиты, подвижности и восстановления запаса сил.
+$SNGECE_Stance_Wolf	Wolf	Волк
+$SNGECE_Stance_Wolf_Desc	Wolf stance is the most defensive: better blocking, less damage taken and harder to stagger, with a modest loss of attack power.	Стойка Волка - самая защитная: лучше блок, меньше получаемого урона, труднее пошатнуть; немного слабее атака.
+$SNGECE_Stance_Hawk	Hawk	Ястреб
+$SNGECE_Stance_Hawk_Desc	Hawk stance focuses on evasive movement: faster but weaker attacks that tire you less, with better stamina regeneration.	Стойка Ястреба - подвижность: атаки быстрее, но слабее и меньше утомляют, запас сил восстанавливается быстрее.
+$SNGECE_Stance_Neutral	Neutral	Нейтральная
+$SNGECE_AttackDamageBuff	Attack Damage Buff	Бонус к урону атак
+$SNGECE_AttackDamageBuff_Tip	Attack damage is increased by this amount.	Урон атак увеличивается на эту величину.
+$SNGECE_PowerAttackDamageBuff	Power Attack Damage Buff	Бонус к урону силовых атак
+$SNGECE_PowerAttackDamageBuff_Tip	Power attack damage is increased by this amount.	Урон силовых атак увеличивается на эту величину.
+$SNGECE_IncomingDamageDebuff	Damage Taken Increase	Повышение получаемого урона
+$SNGECE_IncomingDamageDebuff_Tip	All physical damage you take in this stance, blocked or not, is higher by this amount.	Весь физический урон по вам в этой стойке, в блоке или без, выше на эту величину.
+$SNGECE_AttackSpeedDebuff	Attack Speed Debuff	Штраф к скорости атак
+$SNGECE_AttackSpeedDebuff_Tip	Attack speed is decreased by this amount, up to 90 (at 100 the engine would treat attack speed as normal again). 0 turns the effect off.	Скорость атак снижается на эту величину, максимум 90 (при 100 движок снова считает скорость обычной). 0 отключает эффект.
+$SNGECE_MoveSpeedDebuff	Movement Speed Debuff	Штраф к скорости передвижения
+$SNGECE_MoveSpeedDebuff_Tip	Movement speed is decreased by this many points, up to 90.	Скорость передвижения снижается на столько пунктов, максимум 90.
+$SNGECE_StaminaRegenDebuff	Stamina Regeneration Debuff	Штраф к восстановлению запаса сил
+$SNGECE_StaminaRegenDebuff_Tip	Stamina regenerates slower by this amount.	Запас сил восстанавливается медленнее на эту величину.
+$SNGECE_AttackDamageDebuff	Attack Damage Debuff	Штраф к урону атак
+$SNGECE_AttackDamageDebuff_Tip	Attack damage is decreased by this amount, up to 90.	Урон атак снижается на эту величину, максимум 90.
+$SNGECE_BlockBuff	Block Efficiency	Эффективность блока
+$SNGECE_BlockBuff_Tip	Only while blocking: the share of damage your block stops grows by this amount. Example: a block that stops 50 percent stops 55 at +10, 60 at +20.	Только в блоке: доля урона, которую гасит блок, растёт на эту величину. Пример: блок, гасивший 50 процентов, гасит 55 при +10 и 60 при +20.
+$SNGECE_StaggerBuff	Stagger Reduction Buff	Бонус к устойчивости
+$SNGECE_StaggerBuff_Tip	You are this much harder to stagger.	Вас настолько труднее пошатнуть.
+$SNGECE_DamageResistBuff	Damage Taken Reduction	Снижение получаемого урона
+$SNGECE_DamageResistBuff_Tip	All physical damage you take in this stance, blocked or not, is lower by this amount. Works on top of blocking.	Весь физический урон по вам в этой стойке, в блоке или без, ниже на эту величину. Действует поверх блока.
+$SNGECE_PowerAttackStaminaBuff	Power Attack Stamina Buff	Экономия запаса сил на силовых атаках
+$SNGECE_PowerAttackStaminaBuff_Tip	Power attacks cost this much less stamina.	Силовые атаки тратят настолько меньше запаса сил.
+$SNGECE_AttackSpeedBuff	Attack Speed Buff	Бонус к скорости атак
+$SNGECE_AttackSpeedBuff_Tip	Attack speed is increased by this amount. 0 turns the effect off (a workaround for mods with their own WeaponSpeedMult scaling).	Скорость атак увеличивается на эту величину. 0 отключает эффект (обход для модов со своим масштабом WeaponSpeedMult).
+$SNGECE_MoveSpeedBuff	Movement Speed Buff	Бонус к скорости передвижения
+$SNGECE_MoveSpeedBuff_Tip	Movement speed is increased by this many points.	Скорость передвижения увеличивается на столько пунктов.
+$SNGECE_StaminaRegenBuff	Stamina Regeneration Buff	Бонус к восстановлению запаса сил
+$SNGECE_StaminaRegenBuff_Tip	Stamina regenerates faster by this amount.	Запас сил восстанавливается быстрее на эту величину.
+$SNGECE_AppliesOnClose	Values are saved and applied to the current stance when this page is closed.	Значения сохраняются и применяются к текущей стойке при закрытии этой страницы.
+$SNGECE_Header_Options	Extra Options	Дополнительные параметры
+$SNGECE_RevertStance	Revert Stance	Возврат стойки
+$SNGECE_RevertStance_Tip	Drop to Neutral stance while a bow, a crossbow or only spells and staves are equipped. The stance comes back when fists, a melee weapon or a shield are equipped again.	Переходить в нейтральную стойку, пока в руках лук, арбалет или только заклинания и посохи. Стойка возвращается, когда снова экипированы кулаки, оружие ближнего боя или щит.
+$SNGECE_RevertLock	Keep Neutral while reverted	Не давать сменить стойку
+$SNGECE_RevertLock_Tip	While the stance is reverted, switching to another stance is not possible. A stance picked in the meantime is applied once a melee weapon is back in hand.	Пока стойка сброшена, переключиться на другую нельзя. Выбранная в это время стойка включится, когда в руках снова будет оружие ближнего боя.
+$SNGECE_FixBaseAttackSpeed	Player Base Attack Speed	Базовая скорость атак игрока
+$SNGECE_FixBaseAttackSpeed_Tip	Attack speed changes need a base WeaponSpeedMult above 0. Turn this off if another mod (for example Attack Speed Framework) already provides it, otherwise attacks get twice as fast.	Изменения скорости атак требуют базового WeaponSpeedMult больше 0. Выключите, если его уже задаёт другой мод (например, Attack Speed Framework), иначе атаки станут вдвое быстрее.
+$SNGECE_HideStanceVisuals	Hide Stances NG switch effects	Скрыть эффекты смены стойки Stances NG
+$SNGECE_HideStanceVisuals_Tip	No stance icon above the character and no shader on the body when switching. The stance is shown only by the indicator and the animation set.	Без значка стойки над персонажем и шейдера на теле при смене. Стойку показывают только индикатор и анимации.
+$SNGECE_DebugLog	Debug log	Отладочный лог
+$SNGECE_DebugLog_Tip	Writes stance changes, applied values and equipment checks to SKSE/StancesNGCombatExpansion.log. Turn on to report a problem.	Пишет смены стойки, применённые значения и проверки снаряжения в SKSE/StancesNGCombatExpansion.log. Включите, чтобы сообщить о проблеме.
+$SNGECE_Header_Indicator	Stance Indicator	Индикатор стойки
+$SNGECE_ShowIndicator	Show stance indicator	Показывать индикатор стойки
+$SNGECE_ShowIndicator_Tip	A small badge with the current stance next to the HUD. Hidden in menus and with the HUD turned off.	Небольшой значок текущей стойки рядом с интерфейсом. Скрывается в меню и при отключённом интерфейсе.
+$SNGECE_IndicatorWeaponDrawn	Only with weapon drawn	Только с обнажённым оружием
+$SNGECE_IndicatorWeaponDrawn_Tip	Hide the indicator while weapons are sheathed.	Скрывать индикатор, пока оружие убрано.
+$SNGECE_IndicatorShowNeutral	Show in Neutral stance	Показывать в нейтральной стойке
+$SNGECE_IndicatorShowNeutral_Tip	Keep the indicator visible when no stance is active.	Не скрывать индикатор, когда стойка не выбрана.
+$SNGECE_IndicatorScale	Indicator size	Размер индикатора
+$SNGECE_IndicatorScale_Tip	Size relative to the default.	Размер относительно стандартного.
+$SNGECE_IndicatorPosX	Horizontal position	Положение по горизонтали
+$SNGECE_IndicatorPosX_Tip	Left edge of the indicator, percent of the screen width.	Левый край индикатора в процентах ширины экрана.
+$SNGECE_IndicatorPosY	Vertical position	Положение по вертикали
+$SNGECE_IndicatorPosY_Tip	Bottom edge of the indicator, percent of the screen height from the top.	Нижний край индикатора в процентах высоты экрана, считая сверху.
+$SNGECE_Reset	Reset Combat Expansion Settings	Сбросить настройки Combat Expansion
+$SNGECE_Reset_Tip	Restores the default bonuses and options. Indicator settings are kept.	Возвращает стандартные бонусы и параметры. Настройки индикатора сохраняются.
+$SNGECE_IndicatorTitle	Stance Indicator	Индикатор стойки
+$SNGECE_FontHint	The FLICK font cannot show this game language, so this section is in English. To switch: SETTINGS > Styles > Typeface > Jost-Regular.ttf, then reopen this page.	Шрифт FLICK не поддерживает язык игры, поэтому раздел на английском. Чтобы включить: SETTINGS > Styles > Typeface > Jost-Regular.ttf, затем откройте страницу заново.
+$SNGECE_EnemyBonuses	Enemy type bonuses	Бонусы против типов врагов
+$SNGECE_EnemyBonuses_Tip	Extra attack damage against chosen enemy types, set per stance. Turn off to ignore all of them.	Дополнительный урон атак по выбранным типам врагов, настраивается для каждой стойки. Выключите, чтобы отключить их все.
+$SNGECE_EnemyBonusHeader	Damage vs enemy types	Урон по типам врагов
+$SNGECE_EnemyBonusNote	One bonus per enemy. An enemy of several types (a vampire is a person and undead) gets the largest of their bonuses; on a tie, the more specific type counts.	Один бонус на врага. Если враг подходит под несколько типов (вампир - и человек, и нежить), действует наибольший из их бонусов; при равных - более точный тип.
+$SNGECE_EnemyBonus_Tip	Attack damage against this enemy type is higher by this amount in this stance. Works for enemies from other mods too.	Урон атак по этому типу врагов в этой стойке выше на эту величину. Работает и на врагов из других модов.
+$SNGECE_Enemy_NPC	People (NPC)	Люди и меры (НПС)
+$SNGECE_Enemy_Creature	Creatures	Существа
+$SNGECE_Enemy_Animal	Animals	Животные
+$SNGECE_Enemy_Undead	Undead	Нежить
+$SNGECE_Enemy_Daedra	Daedra	Даэдра
+$SNGECE_Enemy_Dragon	Dragons	Драконы
+$SNGECE_Enemy_Dwarven	Dwarven automatons	Двемерские механизмы
+$SNGECE_Enemy_Ghost	Ghosts	Призраки
+$SNGECE_Enemy_Spriggan	Spriggans	Спригганы
+$SNGECE_Enemy_Troll	Trolls	Тролли
+$SNGECE_Enemy_FrostDragon	Frost dragons	Ледяные драконы
+$SNGECE_Enemy_Horse	Horses	Лошади
+$SNGECE_Enemy_Giant	Giants	Великаны

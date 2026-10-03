@@ -1,0 +1,5 @@
+# The game and FLICK read UTF-16 LE with BOM; the repository keeps UTF-8 so diffs stay readable.
+data/Interface/Translations/*.txt working-tree-encoding=UTF-16LE-BOM eol=crlf
+*.esp binary
+*.png binary
+*.webp binary

@@ -1,0 +1,12 @@
+/build/
+/dist/
+/.vs/
+CMakeUserPresets.json
+/tools/esp/bin/
+/tools/esp/obj/
+build-*.log
+/tools/icons/bin/
+/tools/icons/obj/
+/tools/racedump/bin/
+/tools/racedump/obj/
+/tools/racedump/*.txt

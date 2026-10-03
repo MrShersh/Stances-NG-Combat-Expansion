@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "stancesng-combat-expansion",
+  "version-semver": "1.0.0",
+  "description": "Per-stance bonuses and a stance indicator for Stances NG, configured in the Stances NG menu (FLICK)",
+  "dependencies": [
+    "directxmath",
+    "directxtk",
+    "rapidcsv",
+    "spdlog",
+    "toml11"
+  ],
+  "builtin-baseline": "a1cae005c39be7b18ba319fced856b68d7276271"
+}

@@ -1,0 +1,89 @@
+$SNGECE_Title	Stances NG - Combat Expansion
+$SNGECE_NotLoaded	Stances NG - Combat Expansion.esp не активен. Включите его в порядке загрузки.
+$SNGECE_Header_Bonuses	Бонусы стоек
+$SNGECE_Enabled	Включить бонусы стоек
+$SNGECE_Enabled_Tip	Бонусы и штрафы для стоек Медведя, Волка и Ястреба. Нейтральная стойка без модификаторов.
+$SNGECE_MeleeOnly	Только с оружием ближнего боя
+$SNGECE_MeleeOnly_Tip	Бонусы и штрафы стоек действуют, только пока в руках оружие ближнего боя, щит или кулаки. С луком, арбалетом, посохом или одними заклинаниями они выключены. На заклинания стойки не влияют никогда.
+$SNGECE_Stance_Bear	Медведь
+$SNGECE_Stance_Bear_Desc	Стойка Медведя - агрессия: больше урона и пробивной силы, чем в любой другой стойке, ценой защиты, подвижности и восстановления запаса сил.
+$SNGECE_Stance_Wolf	Волк
+$SNGECE_Stance_Wolf_Desc	Стойка Волка - самая защитная: лучше блок, меньше получаемого урона, труднее пошатнуть; немного слабее атака.
+$SNGECE_Stance_Hawk	Ястреб
+$SNGECE_Stance_Hawk_Desc	Стойка Ястреба - подвижность: атаки быстрее, но слабее и меньше утомляют, запас сил восстанавливается быстрее.
+$SNGECE_Stance_Neutral	Нейтральная
+$SNGECE_AttackDamageBuff	Бонус к урону атак
+$SNGECE_AttackDamageBuff_Tip	Урон атак увеличивается на эту величину.
+$SNGECE_PowerAttackDamageBuff	Бонус к урону силовых атак
+$SNGECE_PowerAttackDamageBuff_Tip	Урон силовых атак увеличивается на эту величину.
+$SNGECE_IncomingDamageDebuff	Повышение получаемого урона
+$SNGECE_IncomingDamageDebuff_Tip	Весь физический урон по вам в этой стойке, в блоке или без, выше на эту величину.
+$SNGECE_AttackSpeedDebuff	Штраф к скорости атак
+$SNGECE_AttackSpeedDebuff_Tip	Скорость атак снижается на эту величину, максимум 90 (при 100 движок снова считает скорость обычной). 0 отключает эффект.
+$SNGECE_MoveSpeedDebuff	Штраф к скорости передвижения
+$SNGECE_MoveSpeedDebuff_Tip	Скорость передвижения снижается на столько пунктов, максимум 90.
+$SNGECE_StaminaRegenDebuff	Штраф к восстановлению запаса сил
+$SNGECE_StaminaRegenDebuff_Tip	Запас сил восстанавливается медленнее на эту величину.
+$SNGECE_AttackDamageDebuff	Штраф к урону атак
+$SNGECE_AttackDamageDebuff_Tip	Урон атак снижается на эту величину, максимум 90.
+$SNGECE_BlockBuff	Эффективность блока
+$SNGECE_BlockBuff_Tip	Только в блоке: доля урона, которую гасит блок, растёт на эту величину. Пример: блок, гасивший 50 процентов, гасит 55 при +10 и 60 при +20.
+$SNGECE_StaggerBuff	Бонус к устойчивости
+$SNGECE_StaggerBuff_Tip	Вас настолько труднее пошатнуть.
+$SNGECE_DamageResistBuff	Снижение получаемого урона
+$SNGECE_DamageResistBuff_Tip	Весь физический урон по вам в этой стойке, в блоке или без, ниже на эту величину. Действует поверх блока.
+$SNGECE_PowerAttackStaminaBuff	Экономия запаса сил на силовых атаках
+$SNGECE_PowerAttackStaminaBuff_Tip	Силовые атаки тратят настолько меньше запаса сил.
+$SNGECE_AttackSpeedBuff	Бонус к скорости атак
+$SNGECE_AttackSpeedBuff_Tip	Скорость атак увеличивается на эту величину. 0 отключает эффект (обход для модов со своим масштабом WeaponSpeedMult).
+$SNGECE_MoveSpeedBuff	Бонус к скорости передвижения
+$SNGECE_MoveSpeedBuff_Tip	Скорость передвижения увеличивается на столько пунктов.
+$SNGECE_StaminaRegenBuff	Бонус к восстановлению запаса сил
+$SNGECE_StaminaRegenBuff_Tip	Запас сил восстанавливается быстрее на эту величину.
+$SNGECE_AppliesOnClose	Значения сохраняются и применяются к текущей стойке при закрытии этой страницы.
+$SNGECE_Header_Options	Дополнительные параметры
+$SNGECE_RevertStance	Возврат стойки
+$SNGECE_RevertStance_Tip	Переходить в нейтральную стойку, пока в руках лук, арбалет или только заклинания и посохи. Стойка возвращается, когда снова экипированы кулаки, оружие ближнего боя или щит.
+$SNGECE_RevertLock	Не давать сменить стойку
+$SNGECE_RevertLock_Tip	Пока стойка сброшена, переключиться на другую нельзя. Выбранная в это время стойка включится, когда в руках снова будет оружие ближнего боя.
+$SNGECE_FixBaseAttackSpeed	Базовая скорость атак игрока
+$SNGECE_FixBaseAttackSpeed_Tip	Изменения скорости атак требуют базового WeaponSpeedMult больше 0. Выключите, если его уже задаёт другой мод (например, Attack Speed Framework), иначе атаки станут вдвое быстрее.
+$SNGECE_HideStanceVisuals	Скрыть эффекты смены стойки Stances NG
+$SNGECE_HideStanceVisuals_Tip	Без значка стойки над персонажем и шейдера на теле при смене. Стойку показывают только индикатор и анимации.
+$SNGECE_DebugLog	Отладочный лог
+$SNGECE_DebugLog_Tip	Пишет смены стойки, применённые значения и проверки снаряжения в SKSE/StancesNGCombatExpansion.log. Включите, чтобы сообщить о проблеме.
+$SNGECE_Header_Indicator	Индикатор стойки
+$SNGECE_ShowIndicator	Показывать индикатор стойки
+$SNGECE_ShowIndicator_Tip	Небольшой значок текущей стойки рядом с интерфейсом. Скрывается в меню и при отключённом интерфейсе.
+$SNGECE_IndicatorWeaponDrawn	Только с обнажённым оружием
+$SNGECE_IndicatorWeaponDrawn_Tip	Скрывать индикатор, пока оружие убрано.
+$SNGECE_IndicatorShowNeutral	Показывать в нейтральной стойке
+$SNGECE_IndicatorShowNeutral_Tip	Не скрывать индикатор, когда стойка не выбрана.
+$SNGECE_IndicatorScale	Размер индикатора
+$SNGECE_IndicatorScale_Tip	Размер относительно стандартного.
+$SNGECE_IndicatorPosX	Положение по горизонтали
+$SNGECE_IndicatorPosX_Tip	Левый край индикатора в процентах ширины экрана.
+$SNGECE_IndicatorPosY	Положение по вертикали
+$SNGECE_IndicatorPosY_Tip	Нижний край индикатора в процентах высоты экрана, считая сверху.
+$SNGECE_Reset	Сбросить настройки Combat Expansion
+$SNGECE_Reset_Tip	Возвращает стандартные бонусы и параметры. Настройки индикатора сохраняются.
+$SNGECE_IndicatorTitle	Индикатор стойки
+$SNGECE_FontHint	Шрифт FLICK не поддерживает язык игры, поэтому раздел на английском. Чтобы включить: SETTINGS > Styles > Typeface > Jost-Regular.ttf, затем откройте страницу заново.
+$SNGECE_EnemyBonuses	Бонусы против типов врагов
+$SNGECE_EnemyBonuses_Tip	Дополнительный урон атак по выбранным типам врагов, настраивается для каждой стойки. Выключите, чтобы отключить их все.
+$SNGECE_EnemyBonusHeader	Урон по типам врагов
+$SNGECE_EnemyBonusNote	Один бонус на врага. Если враг подходит под несколько типов (вампир - и человек, и нежить), действует наибольший из их бонусов; при равных - более точный тип.
+$SNGECE_EnemyBonus_Tip	Урон атак по этому типу врагов в этой стойке выше на эту величину. Работает и на врагов из других модов.
+$SNGECE_Enemy_NPC	Люди и меры (НПС)
+$SNGECE_Enemy_Creature	Существа
+$SNGECE_Enemy_Animal	Животные
+$SNGECE_Enemy_Undead	Нежить
+$SNGECE_Enemy_Daedra	Даэдра
+$SNGECE_Enemy_Dragon	Драконы
+$SNGECE_Enemy_Dwarven	Двемерские механизмы
+$SNGECE_Enemy_Ghost	Призраки
+$SNGECE_Enemy_Spriggan	Спригганы
+$SNGECE_Enemy_Troll	Тролли
+$SNGECE_Enemy_FrostDragon	Ледяные драконы
+$SNGECE_Enemy_Horse	Лошади
+$SNGECE_Enemy_Giant	Великаны
