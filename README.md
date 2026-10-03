@@ -46,8 +46,9 @@ in Neutral.
   with fists, a melee weapon or a shield.
 - **Keep Neutral while reverted** (on): stance hotkeys do nothing while Revert Stance holds you in Neutral; a stance
   picked meanwhile is applied once a melee weapon is back in hand.
-- **Player Base Attack Speed** (on): attack speed changes need a base WeaponSpeedMult above zero. If you use Attack
-  Speed Framework or another mod that already provides it, turn this off, otherwise attacks become twice as fast.
+- **Player Base Attack Speed** (off): attack speed changes need a base WeaponSpeedMult above zero. Most setups already
+  get it from a fix mod such as Attack Speed Framework; turn this on only if attack speed changes do nothing, otherwise
+  attacks become twice as fast.
 - **Hide Stances NG switch effects** (on): no icon above the head and no body shader when switching.
 - **Debug log** (off): stance changes, applied values and equipment checks go to the log.
 - **Reset**: restores the default bonuses and options; the indicator layout is kept.

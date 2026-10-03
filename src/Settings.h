@@ -55,7 +55,7 @@ namespace Settings
 	inline Bool bonusesEnabled{ kSection, "bBonusesEnabled", true };
 	// Stance bonuses and penalties only while a melee weapon, a shield or fists are in hand.
 	inline Bool bonusesMeleeOnly{ kSection, "bBonusesMeleeOnly", true };
-	inline Bool fixBaseAttackSpeed{ kSection, "bFixBaseAttackSpeed", true };
+	inline Bool fixBaseAttackSpeed{ kSection, "bFixBaseAttackSpeed", false };
 	inline Bool revertStance{ kSection, "bRevertStance", true };
 	// While reverted, a stance picked by hotkey is taken off again and kept for when a melee weapon comes back.
 	inline Bool revertStanceLock{ kSection, "bRevertStanceLock", true };

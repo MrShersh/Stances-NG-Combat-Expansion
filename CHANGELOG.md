@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 (2026-10-04)
+
+- Player Base Attack Speed is now off by default: most setups already get a base WeaponSpeedMult from a fix mod (for
+  example Attack Speed Framework), and with both attacks became twice as fast. If you saved the settings in 1.0.0,
+  check this option once.
+
 ## 1.0.0 (2026-10-04)
 
 First release. Native SKSE port of Stances - Dynamic Animation Sets (Add-On) 1.13 by Ashen to Stances NG.

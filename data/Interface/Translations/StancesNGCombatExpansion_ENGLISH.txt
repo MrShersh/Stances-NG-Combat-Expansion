@@ -47,7 +47,7 @@ $SNGECE_RevertStance_Tip	Drop to Neutral stance while a bow, a crossbow or only 
 $SNGECE_RevertLock	Keep Neutral while reverted
 $SNGECE_RevertLock_Tip	While the stance is reverted, switching to another stance is not possible. A stance picked in the meantime is applied once a melee weapon is back in hand.
 $SNGECE_FixBaseAttackSpeed	Player Base Attack Speed
-$SNGECE_FixBaseAttackSpeed_Tip	Attack speed changes need a base WeaponSpeedMult above 0. Turn this off if another mod (for example Attack Speed Framework) already provides it, otherwise attacks get twice as fast.
+$SNGECE_FixBaseAttackSpeed_Tip	Attack speed changes need a base WeaponSpeedMult above 0. Most setups already have it from a fix mod (for example Attack Speed Framework); turn this on only if attack speed changes do nothing, otherwise attacks get twice as fast.
 $SNGECE_HideStanceVisuals	Hide Stances NG switch effects
 $SNGECE_HideStanceVisuals_Tip	No stance icon above the character and no shader on the body when switching. The stance is shown only by the indicator and the animation set.
 $SNGECE_DebugLog	Debug log
